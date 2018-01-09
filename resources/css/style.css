@@ -7,9 +7,8 @@ body {
   opacity: 0.9;
   text-align: center;
 }
-
-div {
-  border: 0px solid seashell;
+a {
+  color: seashell; 
 }
 .header {
   height: 69px;
@@ -62,7 +61,7 @@ div {
 
 }
 
-.mission {
+#mission {
   width: 1200px;
   height: 700px;
   background-image: url("./../pictures/img-mission-background.jpg");
@@ -78,8 +77,8 @@ div {
 
 /*Featured section styling*/
 
-.featured {
-  padding-top: 70px; 
+#featured {
+  padding-top: 70px;
   width: 1000px;
   display: flex;
   flex-direction: column;
@@ -110,7 +109,6 @@ div {
 }
 
 #locations {
-margin-bottom: 40px;
   padding-top: 70px;
   width: 1200px;
   height: 500px;
@@ -126,5 +124,15 @@ margin-bottom: 40px;
   margin: 15px 20px;
   background-color: black;
   width: 300px;
+  opacity: 1;
 
+}
+
+.contacts {
+  height: 200px;
+}
+
+.copyrights {
+  margin-left: 20px;
+  text-align: left;
 }
