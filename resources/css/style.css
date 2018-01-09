@@ -62,8 +62,7 @@ a {
 }
 
 #mission {
-  max-width: 1200px;
-  width: 100%;
+  width: 1200px;
   height: 700px;
   background-image: url("./../pictures/img-mission-background.jpg");
   display: flex;
@@ -111,8 +110,7 @@ a {
 
 #locations {
   padding-top: 70px;
-  max-width: 1200px;
-  width: 100%; 
+  width: 1200px;
   height: 500px;
   background-image: url("./../pictures/img-locations-background.jpg");
 }
