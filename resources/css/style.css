@@ -138,6 +138,7 @@ a {
   text-align: left;
 }
 
+/* Specifically coded to make my tea-cozy responsive for mobile*/
 @media only screen and (max-width: 480px) {
   .header {
     font-size: 0.5em;
